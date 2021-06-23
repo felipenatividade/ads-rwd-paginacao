@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Paginação</title>
+        <style>
+            li,.pagination2 {
+                display: inline-table;
+            }
+
+            .pagination2 li a {
+                color: black;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+            ul.pagination2 li a.active {
+                background-color: #4CAF50;
+                color: white;
+                border:1px solid #4CAF50;
+            }
+
+            ul.pagination2 li a:hover:not(.active),
+            
+            ul.breadcrumb {
+                background-color: #eee;
+            }
+
+            .navegacao {
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h2> Atividade da semana 18/05/2021</h2>
+            <div class="navegacao">
+                <ul class="pagination2">
+                    <li> <a href="#">«</a> </li>
+                    <li> <a href="#">1</a> </li>
+                    <li> <a class="active" href="#" style="border:none !important;">2</a> </li>
+                    <li> <a href="#">3</a> </li>
+                    <li> <a href="#">4</a> </li>
+                    <li> <a href="#">5</a> </li>
+                    <li> <a href="#">6</a> </li>
+                    <li> <a href="#">7</a> </li>
+                    <li> <a href="#">»</a> </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
